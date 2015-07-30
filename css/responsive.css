@@ -1,0 +1,16 @@
+/*   qk checks  body {
+		background: navy;  /*qk check
+	}*/
+
+@media screen and (min-width: 480px) {
+/*****2 col layout*****/
+
+#primary {
+	width: 50%
+	float: left;
+}
+
+@media screen and (min-width: 660px) {
+	
+
+

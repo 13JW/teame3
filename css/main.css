@@ -1,0 +1,231 @@
+/*******
+GENERAL
+*******/
+
+/*quick test...body { background-color: orange;}*/
+
+body {
+  font-family: 'Indie Flower', cursive; }
+/*  'PT Sans', sans-serif;*/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  background: lightblue;
+  padding: 0 5%;
+}
+/*margin adds space on 'outside' of element...
+padding adds space on 'inside' of element and makes space 
+between element's edge & its content*/
+
+a { text-decoration: none; }
+/*to render links w/o underlines*/
+
+img { max-width: 100%; } 
+/*to fill the parent element*/
+
+h3 { margin: 0 0 1em 0; }
+
+
+
+/*******
+HEADING
+*******/
+
+header {
+  float: left;
+  margin: 0 0 25px 0;
+  padding: 5px 0 0 0 ;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 15px 0 0;
+  font-size: 1.75em; 
+  font-weight: normal;
+  line-height: 0.8em;}
+/* study/confirm...'Indie Flower', cursive; 'PT Sans', sans-serif; */
+
+h2 {
+  font-size: 1em; 
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/*******
+NAVIGATION
+*******/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0; 
+}
+
+nav ul {
+  list-style: none; /*removes bullet pts from listed items*/
+  margin: 0 5px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; /*horizontal list items*/
+}
+
+nav a {
+  font-weight: 800;  /*chk google font dload size*/
+  padding: 15px 10px;
+}
+
+
+
+/*******
+FOOTER
+****** */
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both; /*to clear footer of any floated elements*/  
+  padding-top: 50px;
+  color: grey; /*#ccc*/
+}
+
+.mail-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/*******
+PAGE: GALLERY
+*******/
+
+#gallery {
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+}
+
+#gallery li {
+  border-radius: 5%;
+  float: left;
+  width: 45%;
+  margin: 2.5%; /*to fill remainder of parent element's width*/
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+`
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/*******
+PAGE: ABOUT
+*******/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+}
+
+
+
+/*******
+PAGE: NEXT STEPS
+*******/
+
+.next {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ font-size: 0.9em;
+
+/* padding: 0 5px;
+ margin: 0 5px;*/
+}
+
+.next a {
+ display: block;
+ min-height: 20px;
+ background-repeat: no-repeat;
+ background-size: 20px 20px;
+ padding: 0 0 0 30px;
+/* margin: 0 0 10px;*/
+}
+
+.next li.AHAorg a {
+  background-image: url('img src=img/picB.JPG'); 
+}
+
+.next li.aware a {
+  background-image: url(img src="img/picB.JPG"); 
+}
+
+.next li.local a {
+  background-image: img src="img/picB.JPG"; 
+}
+
+/*bg can set values for bg incl colors & imgs; bgimg can only set the img*/
+
+
+
+/*******
+COLORS
+*******/
+
+/*site body*/
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/*aha*/
+header {
+  background: red;
+  border-color: #ffa949;
+}
+
+/*nav bg on mobile*/
+nav {
+  background: khaki; /*#ffa949*/
+}
+
+/*logo text*/
+h1, h2 {
+  color: #fff;
+}
+
+/*links*/
+a { 
+  color: purple; /*#ffa949 */
+}
+
+/*nav links*/
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/*selected nav links*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}  
+

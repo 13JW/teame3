@@ -1,0 +1,17 @@
+{
+    "name": "jw/teame3",
+    "description": "Forms for marketing",
+    "authors": [
+        {
+            "name": "jw",
+            "email": "jw-2001@lycos.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.13",
+        "slim/slim": "^2.6",
+        "slim/views":"0.1.*",
+        "twig/twig":"1.*",
+        "swiftmailer/swiftmailer": "@stable"
+    }
+}
