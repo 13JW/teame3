@@ -43,8 +43,9 @@
     </nav>
   </header>
 
+ 
+ {% block hero %}
   <div id="wrapper">
-    {% block hero %}
     <section>
         <ul id="gallery">
                         
@@ -102,23 +103,22 @@
           </li> -->
         </ul>
       </section>
-    {% endblock hero %}
-  </div>
+   </div>
+  {% endblock hero %}
 
-  <gallery>
+
   <!-- <main> -->
-    {% block content %}
-    {% endblock content %}
+  <!--   {% block content %}
+    {% endblock content %} -->
 <!--   </main> -->
-  </gallery>
 
   <footer>
     {% block footer %}
  <!--      <p>A project from <strong><a href=</a></strong></p> -->
       <nav>
         <a href="http://www.kintera.org/faf/search/searchTeamPart.asp?ievent=1126077&lis=1&kntae1126077=CCA9B932599D49CDBC70A9C01261EB85&team=6387466&tlteam=6304851">2015 Heart Walk</a>
-      </nav>
-      <p>&copy; 2015 E3 and Justhost.com</p>
+        <p>&copy; 2015 E3 and Justhost.com</p>
+    </nav>
     {% endblock footer %}
   </footer>
 
