@@ -21,21 +21,23 @@
 <body>
 <!--
   <div id="feedback" class="success">
-    <h3>Success!</h3>
+    <h3>Success!!</h3>
     <p>You're reading about Team E3.</p>
   </div>
 -->
 
   <header>
-    <a href="index.html" id="logo">
+    <a href="{{ baseUrl() }}" id="logo">
       
         <h1>Team E3</h1>
-        <h2>Save the Date!  Kentuckiana Heart Walk, September 19th.</h2>
+        <p></p>
+        <h2>Save the Date!&nbsp;  Kentuckiana Heart Walk, September 19th.</h2>
     </a>
     <nav>
       <a href="{{ baseUrl() }}">Gallery</a>
       <a href="{{ siteUrl('/contactus') }}">About</a>
       <!-- class="selected" -->
+      <a href="{{ siteUrl('/food') }}">Food for Thought</a>
       <a href="{{ siteUrl('/next') }}">Next Steps</a>
     </nav>
   </header>

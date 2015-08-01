@@ -44,10 +44,13 @@ $app->get('/', function() use($app){
   $app->render('gallery.twig');
 })->name('home');
 
+$app->get('/food', function() use($app){
+  $app->render('food.twig');
+})->name('food');
+
 $app->get('/next', function() use($app){
   $app->render('next.twig');
 })->name('next');
-// })->name('home');
 
 $app->get('/contactus', function() use($app){
   $app->render('contactus.twig');

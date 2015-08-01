@@ -47,13 +47,13 @@ header {
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 15px 0 0;
-  font-size: 1.75em; 
+  font-size: 2.75em; 
   font-weight: normal;
   line-height: 0.8em;}
-/* study/confirm...'Indie Flower', cursive; 'PT Sans', sans-serif; */
+/* ...'Indie Flower', cursive; 'PT Sans', sans-serif; */
 
 h2 {
-  font-size: 1em; 
+  font-size: 1.75em; 
   margin: -5px 0 0;
   font-weight: normal;
 }
@@ -81,7 +81,7 @@ nav li {
 }
 
 nav a {
-  font-weight: 800;  /*chk google font dload size*/
+  font-weight: 800;  /*..google font rendering-size*/
   padding: 15px 10px;
 }
 
@@ -92,7 +92,8 @@ FOOTER
 ****** */
 
 footer {
-  font-size: 0.75em;
+  font-size: 1em;
+/*  font-size: 0.75em;*/
   text-align: center;
   clear: both; /*to clear footer of any floated elements*/  
   padding-top: 0px;
@@ -120,6 +121,7 @@ PAGE: GALLERY
 
 #gallery li {
   border-radius: 5%;
+  font-weight: bold; 
   float: left;
   width: 45%;
   margin: 2.5%; /*to fill remainder of parent element's width*/
@@ -207,6 +209,7 @@ body {
 /*  background-color: #fff;*/
     background-color: lightblue;
     color: #999;
+    
 }
 
 /*aha*/
